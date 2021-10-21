@@ -281,9 +281,11 @@ select {
 .aside .logo {
   /* background-color: #ededed; */
   padding: 30px 0;
+  display: flex;
+  justify-content: center;
 }
 
-.aside .logo > a {
+.aside .logo>a {
   font-size: 35px;
   color: #302e4d;
   font-family: "Rubik", sans-serif;
@@ -294,7 +296,7 @@ select {
   padding: 0 10px;
 }
 
-.aside .logo > a::before {
+.aside .logo>a::before {
   content: "";
   height: 20px;
   width: 20px;
@@ -303,7 +305,7 @@ select {
   left: 0;
 }
 
-.aside .logo > a::after {
+.aside .logo>a::after {
   content: "";
   height: 20px;
   width: 20px;
@@ -336,7 +338,7 @@ select {
   transition: all 0.3s ease;
 }
 
-.aside .nav-toggler > span {
+.aside .nav-toggler>span {
   height: 2px;
   width: 18px;
   display: inline-block;
@@ -385,11 +387,11 @@ select {
   padding: 0;
 }
 
-.aside .nav > li {
+.aside .nav>li {
   display: block;
 }
 
-.aside .nav > li > a {
+.aside .nav>li>a {
   font-size: 16px;
   font-weight: 600;
   color: #302e4d;
@@ -403,11 +405,11 @@ select {
   text-transform: capitalize;
 }
 
-.aside .nav > li > a:not(.active):hover {
+.aside .nav>li>a:not(.active):hover {
   padding-left: 5px;
 }
 
-.aside .nav > li > a > .fa {
+.aside .nav>li>a>.fa {
   margin-right: 5px;
 }
 
@@ -1275,6 +1277,7 @@ body.dark .contact .contact-form .form-item .form-control:focus {
   -webkit-box-shadow: 0 0 20px rgba(204, 204, 204, 0.15);
   box-shadow: 0 0 20px rgba(204, 204, 204, 0.15);
 }
+
 body.dark .aside .nav-toggler.open span {
   background: transparent !important;
 }
@@ -1331,9 +1334,11 @@ body.dark .aside .nav li a,
 body.dark .aside {
   border-color: #393939;
 }
+
 body.dark ::-webkit-scrollbar-track {
   background: #222222;
 }
+
 /* Responsive */
 
 @media (max-width: 1199px) {
@@ -1375,6 +1380,7 @@ body.dark ::-webkit-scrollbar-track {
 }
 
 @media (max-width: 991px) {
+
   .blog .blog-item,
   .portfolio .portfolio-item,
   .service .service-item {
@@ -1386,6 +1392,7 @@ body.dark ::-webkit-scrollbar-track {
 }
 
 @media (max-width: 767px) {
+
   .contact .contact-form .col-6,
   .blog .blog-item,
   .service .service-item,
