@@ -566,41 +566,43 @@
             <!-- contact-info-item end -->
           </div>
           <!-- Contact Form -->
-          <div class="row">
-            <div class="contact-form padd-15">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name">
+          <form action="https://formspree.io/f/moqranbd" method="POST">
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="_replyto" placeholder="Email*">
+                    </div>
                   </div>
                 </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Email*">
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" name="subject" class="form-control" placeholder="Subject">
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject">
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Your Message..."></textarea>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea class="form-control" placeholder="Your Message..."></textarea>
+                <div class="row">
+                  <div class="col-12 padd-15">
+                    <button class="btn" type="submit">Send Message</button>
                   </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 padd-15">
-                  <button class="btn" type="submit">Send Message</button>
                 </div>
               </div>
             </div>
-          </div>
+          </form>
           <!-- Contact Form End -->
         </div>
       </section>
