@@ -1,14 +1,14 @@
-.aside .logo>a::before {
-    border-top: 4px solid #2196f3;
-    border-left: 4px solid #2196f3;
+.aside .logo > a::before {
+  border-top: 4px solid #2196f3;
+  border-left: 4px solid #2196f3;
 }
 
-.aside .logo>a::after {
-    border-bottom: 4px solid #2196f3;
-    border-right: 4px solid #2196f3;
+.aside .logo > a::after {
+  border-bottom: 4px solid #2196f3;
+  border-right: 4px solid #2196f3;
 }
-.toggler-style-switcher>.fa{
-    color: #2196f3 !important;
+.toggler-style-switcher > .fa {
+  color: #2196f3 !important;
 }
 .style-switcher .toggler-style-switcher .fa,
 .contact .contact-info-item .fa,
@@ -20,11 +20,11 @@
 body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
-.aside .nav>li>a:hover,
-body.dark .aside .nav>li>a:hover,
+.aside .nav > li > a:hover,
+body.dark .aside .nav > li > a:hover,
 body.dark .aside .nav li a.active,
-.aside .nav>li>a.active {
-    color: #2196f3;
+.aside .nav > li > a.active {
+  color: #2196f3;
 }
 
 .blog .blog-item-inner .blog-date,
@@ -33,25 +33,25 @@ body.dark .aside .nav li a.active,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
 .btn,
-.aside .nav-toggler>span,
-.aside .nav-toggler>span::before,
-.aside .nav-toggler>span::after,
+.aside .nav-toggler > span,
+.aside .nav-toggler > span::before,
+.aside .nav-toggler > span::after,
 .home .intro .social-links a,
 .section-title h2::before,
 .section-title h2::after {
-    background-color: #2196f3;
+  background-color: #2196f3;
 }
 
 .portfolio .portfolio-filter button.active {
-    border-color: #2196f3;
+  border-color: #2196f3;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #2196f3;
+  background: #2196f3;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #1b74bd;
+  background: #1b74bd;
 }

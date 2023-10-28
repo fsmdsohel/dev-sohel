@@ -74,9 +74,8 @@ function changeItem() {
     .querySelector(".portfolio-img img")
     .getAttribute("src");
   lightboxImg.src = imgSrc;
-  lightboxText.innerHTML = portfolioItems[itemIndex].querySelector(
-    "h4"
-  ).innerHTML;
+  lightboxText.innerHTML =
+    portfolioItems[itemIndex].querySelector("h4").innerHTML;
   lightboxCounter.innerHTML = itemIndex + 1 + " of " + totalPortfolioItem;
 }
 
@@ -138,35 +137,3 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle("open");
   }
 }
-
-// Other code
-// var TIMEOUT = 6000;
-
-// var interval = setInterval(handleNext, TIMEOUT);
-
-// function handleNext() {
-
-//   var $radios = document.querySelector('input[class*=&quot;slide-radio&quot;]');
-//   var $activeRadio = document.querySelector('input[class*=&quot;slide-radio&quot;]:checked');
-
-//   var currentIndex = $activeRadio.index();
-//   var radiosLength = $radios.length;
-
-//   $radios
-//     .attr('checked', false);
-
-//   if (currentIndex &gt;= radiosLength - 1) {
-
-//     $radios
-//       .first()
-//       .attr('checked', true);
-
-//   } else {
-
-//     $activeRadio
-//       .next('input[class*=&quot;slide-radio&quot;]')
-//       .attr('checked', true);
-
-//   }
-
-// }

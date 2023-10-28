@@ -1,14 +1,14 @@
-.aside .logo>a::before {
-    border-top: 4px solid #fa5b0f;
-    border-left: 4px solid #fa5b0f;
+.aside .logo > a::before {
+  border-top: 4px solid #fa5b0f;
+  border-left: 4px solid #fa5b0f;
 }
 
-.aside .logo>a::after {
-    border-bottom: 4px solid #fa5b0f;
-    border-right: 4px solid #fa5b0f;
+.aside .logo > a::after {
+  border-bottom: 4px solid #fa5b0f;
+  border-right: 4px solid #fa5b0f;
 }
-.toggler-style-switcher>.fa{
-    color: #fa5b0f !important;
+.toggler-style-switcher > .fa {
+  color: #fa5b0f !important;
 }
 .style-switcher .toggler-style-switcher .fa,
 .contact .contact-info-item .fa,
@@ -20,11 +20,11 @@
 body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
-.aside .nav>li>a:hover,
-body.dark .aside .nav>li>a:hover,
+.aside .nav > li > a:hover,
+body.dark .aside .nav > li > a:hover,
 body.dark .aside .nav li a.active,
-.aside .nav>li>a.active {
-    color: #fa5b0f;
+.aside .nav > li > a.active {
+  color: #fa5b0f;
 }
 
 .blog .blog-item-inner .blog-date,
@@ -33,25 +33,25 @@ body.dark .aside .nav li a.active,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
 .btn,
-.aside .nav-toggler>span,
-.aside .nav-toggler>span::before,
-.aside .nav-toggler>span::after,
+.aside .nav-toggler > span,
+.aside .nav-toggler > span::before,
+.aside .nav-toggler > span::after,
 .home .intro .social-links a,
 .section-title h2::before,
 .section-title h2::after {
-    background-color: #fa5b0f;
+  background-color: #fa5b0f;
 }
 
 .portfolio .portfolio-filter button.active {
-    border-color: #fa5b0f;
+  border-color: #fa5b0f;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #fa5b0f;
+  background: #fa5b0f;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #c9470b;
+  background: #c9470b;
 }

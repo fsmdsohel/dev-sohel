@@ -1,13 +1,13 @@
-.aside .logo>a::before{
-    border-top: 4px solid #ec1839;
-    border-left: 4px solid #ec1839;
+.aside .logo > a::before {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
 }
-.aside .logo>a::after{
-    border-bottom: 4px solid #ec1839;
-    border-right: 4px solid #ec1839;
+.aside .logo > a::after {
+  border-bottom: 4px solid #ec1839;
+  border-right: 4px solid #ec1839;
 }
-.toggler-style-switcher>.fa{
-    color: #ec1839 !important;
+.toggler-style-switcher > .fa {
+  color: #ec1839 !important;
 }
 .style-switcher .toggler-style-switcher .fa,
 .contact .contact-info-item .fa,
@@ -19,11 +19,11 @@
 body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
-.aside .nav>li>a:hover,
-body.dark .aside .nav>li>a:hover,
+.aside .nav > li > a:hover,
+body.dark .aside .nav > li > a:hover,
 body.dark .aside .nav li a.active,
-.aside .nav>li>a.active{
-    color: #ec1839;
+.aside .nav > li > a.active {
+  color: #ec1839;
 }
 .blog .blog-item-inner .blog-date,
 .service .service-item .service-item-inner:hover .icon,
@@ -31,24 +31,24 @@ body.dark .aside .nav li a.active,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
 .btn,
-.aside .nav-toggler>span,
-.aside .nav-toggler>span::before,
-.aside .nav-toggler>span::after,
+.aside .nav-toggler > span,
+.aside .nav-toggler > span::before,
+.aside .nav-toggler > span::after,
 .home .intro .social-links a,
 .section-title h2::before,
-.section-title h2::after{
-    background-color: #ec1839;
+.section-title h2::after {
+  background-color: #ec1839;
 }
-.portfolio .portfolio-filter button.active{
-    border-color: #ec1839;
+.portfolio .portfolio-filter button.active {
+  border-color: #ec1839;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ec1839;
+  background: #ec1839;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #bb132d;
+  background: #bb132d;
 }
